@@ -1,0 +1,118 @@
+/*
+ * Login
+*/
+.login {
+    background-color: rebeccapurple;
+}
+
+.login_card {
+    width: 650px;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login_card form {
+    padding: 30px;
+}
+
+.login_card .form_errors {
+    padding: 0 30px;
+}
+
+.top_card {
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: black;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.top_card h3 {
+    padding-left: 7px;
+}
+
+.footer_card {
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: red;
+    padding: 10px;
+    display: none;
+}
+
+.footer_card h6 {
+    margin: auto;
+    padding-left: 10px;
+}
+
+.footer_card.errors {
+    display: block;
+}
+
+
+#form_login .form-control {
+    padding-left: 40px;
+}
+
+input[name="password"] {
+    padding-right: 40px;
+}
+
+#form_login input:focus {
+    box-shadow: none;
+}
+
+#form_login input:focus + .fas {
+    color: #0facf3;
+}
+
+#form_login a {
+    color: grey;
+}
+
+#form_login a:hover {
+    color: #0facf3;
+}
+
+#form_login .fas {
+    position: absolute;
+    padding: 12px;
+}
+
+input + .fas { 
+    color: grey;
+}
+
+.fa-eye,
+.fa-eye-slash {
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+    padding: 12px;
+}
+/*
+ * Login
+*/
+/*
+ * Dashboard
+*/
+    #btn_list {
+        width: 100px;
+    }
+/*
+ * Dashboard
+*/
+
+/*
+ * Reporte
+*/
+#chars {  
+    font-size: 13px;
+    color: grey;
+    padding: 10px;
+}
+/*
+ * Reporte
+*/
